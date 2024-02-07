@@ -1,0 +1,28 @@
+main > p {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.exercises {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.moive {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.games {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
