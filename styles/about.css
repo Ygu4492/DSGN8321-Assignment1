@@ -1,6 +1,7 @@
 main > iframe {
   width: 100%;
   aspect-ratio: 560/315;
+  border: 0;
 }
 
 main p {
