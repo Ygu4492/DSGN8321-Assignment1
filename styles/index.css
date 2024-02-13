@@ -1,29 +1,26 @@
-main {
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-}
+main {}
 
 picture {
+  float: left;
+  margin-right: 20px;
+
+  width: 50%;
+}
+
+picture>img {
   width: 100%;
 }
 
-picture > img {
-  width: 100%;
-}
-
-.introduction > p {
+.introduction>p {
   font-size: 16px;
   line-height: 2;
 }
 
-.introduction > p:first-child {
+.introduction>p:first-child {
   margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
-  main.grid {
-    display: block;
-  }
   .introduction {
     margin-top: 24px;
   }
