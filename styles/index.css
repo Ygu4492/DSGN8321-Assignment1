@@ -1,6 +1,6 @@
 main {
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 24px;
 }
 
 picture {
@@ -18,4 +18,13 @@ picture > img {
 
 .introduction > p:first-child {
   margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  main.grid {
+    display: block;
+  }
+  .introduction {
+    margin-top: 24px;
+  }
 }
